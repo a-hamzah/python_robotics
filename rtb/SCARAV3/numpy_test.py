@@ -23,3 +23,11 @@ PT = [[1, 3, 0, 7],
                [9, 5, 4, 3],]
 print(PT)
 
+def milimeters_to_meters(input):
+    output = input/1000
+    return output
+    
+    
+value_in_meters = milimeters_to_meters(24)
+print(value_in_meters)
+
